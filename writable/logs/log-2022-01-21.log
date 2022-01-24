@@ -1,0 +1,16 @@
+CRITICAL - 2022-01-21 16:47:15 --> Argument 1 passed to App\Controllers\Auth::dataValidation() must be an instance of App\Controllers\mixed, array given, called in /var/www/html/delivery-api/app/Controllers/Auth.php on line 78
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Controllers\Auth->dataValidation()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-21 16:48:00 --> Return value of App\Controllers\Auth::dataValidation() must be an instance of App\Controllers\mixed, array returned
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Controllers\Auth->dataValidation()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}

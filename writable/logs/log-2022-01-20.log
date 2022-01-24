@@ -1,0 +1,122 @@
+CRITICAL - 2022-01-20 01:14:18 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:42:27 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:42:41 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:42:43 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:42:52 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:43:23 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:54:35 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:55:27 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 01:58:58 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 02:00:19 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): sizeof()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 02:02:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/app/Controllers/Auth.php(34): count()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#7 {main}
+CRITICAL - 2022-01-20 09:48:14 --> syntax error, unexpected ''data'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/delivery-api/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-20 09:48:57 --> syntax error, unexpected ''data'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/delivery-api/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-20 09:54:35 --> Call to a member function getVar() on null
+#0 /var/www/html/delivery-api/system/CodeIgniter.php(802): App\Controllers\Auth->__construct()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#5 {main}
