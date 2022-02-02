@@ -1,0 +1,48 @@
+CRITICAL - 2022-01-26 07:52:31 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-26 07:52:59 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-26 07:53:11 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-26 07:53:22 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-26 08:31:39 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-01-26 08:32:03 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}

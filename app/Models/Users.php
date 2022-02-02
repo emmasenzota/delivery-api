@@ -7,16 +7,24 @@ use App\Models\BaseModel;
 class Users extends BaseModel
 {
     # global variabless 
-    public $userId;
-    public $fitstName;
-    public $lastName;
-    protected $phoneNumber;
-    protected $email;
+    protected $table      = 'users';
+    protected $primaryKey = 'userId';
 
+    protected $useAutoIncrement = true;
 
-    # constrictor 
-    public function __construct(int $id = null) # only use without id if for logging in and checking uniqueness
-    {
-        # code...
-    }
+    protected $returnType     = 'array';
+    protected $useSoftDeletes = false;
+
+    protected $allowedFields = ['userId','firstname','lastname','phonenumber', 'email'];
+
+    
+    protected $useTimestamps = false;
+    protected $createdField  = 'created_at';
+    protected $updatedField  = 'updated_at';
+    protected $deletedField  = 'deleted_at';
+    
+
+    protected $validationRules    = [];
+    protected $validationMessages = [];
+    protected $skipValidation     = false;  
 }

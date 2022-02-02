@@ -1,0 +1,11 @@
+CRITICAL - 2022-01-27 19:32:39 --> syntax error, unexpected ''data'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /var/www/html/delivery-api/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/delivery-api/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}

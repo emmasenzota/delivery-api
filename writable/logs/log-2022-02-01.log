@@ -1,0 +1,264 @@
+ERROR - 2022-02-01 15:50:52 --> Duplicate entry '07892423442' for key 'users.phonenumber'
+CRITICAL - 2022-02-01 15:50:52 --> Duplicate entry '07892423442' for key 'users.phonenumber'
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/delivery-api/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/delivery-api/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/delivery-api/app/Models/BaseModel.php(72): CodeIgniter\Model->insert()
+#8 /var/www/html/delivery-api/app/Controllers/Auth.php(107): App\Models\BaseModel->new()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#14 {main}
+ERROR - 2022-02-01 15:51:03 --> Table 'delivery.permisionId' doesn't exist
+CRITICAL - 2022-02-01 15:51:03 --> Table 'delivery.permisionId' doesn't exist
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/delivery-api/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/delivery-api/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/delivery-api/app/Models/BaseModel.php(72): CodeIgniter\Model->insert()
+#8 /var/www/html/delivery-api/app/Controllers/Auth.php(120): App\Models\BaseModel->new()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#14 {main}
+ERROR - 2022-02-01 15:51:45 --> Table 'delivery.permision' doesn't exist
+CRITICAL - 2022-02-01 15:51:45 --> Table 'delivery.permision' doesn't exist
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/delivery-api/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/delivery-api/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/delivery-api/app/Models/BaseModel.php(72): CodeIgniter\Model->insert()
+#8 /var/www/html/delivery-api/app/Controllers/Auth.php(120): App\Models\BaseModel->new()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#14 {main}
+ERROR - 2022-02-01 15:53:19 --> Table 'delivery.permission' doesn't exist
+CRITICAL - 2022-02-01 15:53:19 --> Table 'delivery.permission' doesn't exist
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/delivery-api/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/delivery-api/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/delivery-api/app/Models/BaseModel.php(72): CodeIgniter\Model->insert()
+#8 /var/www/html/delivery-api/app/Controllers/Auth.php(120): App\Models\BaseModel->new()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#14 {main}
+CRITICAL - 2022-02-01 17:29:32 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 17:30:43 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 17:33:34 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 17:33:46 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:23:02 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:23:58 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:28:26 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:28:59 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:31:25 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:37:34 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:37:36 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:37:37 --> Undefined index: userId
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:37:55 --> Trying to get property 'userId' of non-object
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:39:07 --> Undefined variable: 0
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:40:07 --> Undefined variable: 0
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:40:25 --> Array to string conversion
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:40:26 --> Array to string conversion
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-01 18:41:25 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(29): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-01 18:43:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(29): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+ERROR - 2022-02-01 18:45:05 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-02-01 18:45:05 --> Unknown column 'id' in 'where clause'
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#6 /var/www/html/delivery-api/app/Models/BaseModel.php(25): CodeIgniter\BaseModel->find()
+#7 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#8 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#13 {main}
+CRITICAL - 2022-02-01 18:46:37 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(25): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-01 18:47:23 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 143
+#0 /var/www/html/delivery-api/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(33): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}

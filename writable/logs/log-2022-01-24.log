@@ -1,0 +1,25 @@
+CRITICAL - 2022-01-24 08:06:46 --> Undefined index: name
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+ERROR - 2022-01-24 08:16:19 --> Duplicate entry '07892323434' for key 'users.phonenumber'
+CRITICAL - 2022-01-24 08:16:19 --> Duplicate entry '07892323434' for key 'users.phonenumber'
+#0 /var/www/html/delivery-api/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/delivery-api/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/delivery-api/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/delivery-api/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/delivery-api/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/delivery-api/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/delivery-api/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/delivery-api/app/Models/BaseModel.php(69): CodeIgniter\Model->insert()
+#8 /var/www/html/delivery-api/app/Controllers/Auth.php(97): App\Models\BaseModel->new()
+#9 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->create()
+#10 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#14 {main}

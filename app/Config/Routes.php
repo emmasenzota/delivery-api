@@ -31,10 +31,13 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-// $routes->get('/', 'Home::index');
+# there are only three operations under Auth class 
+#   which are login, register and logout 
+$routes->post('(:alphanum)','Auth::create');
+$routes->get('(:any)','Auth::signin');
 
-$routes->resource('Auth');
-// $routes->post('Auth','Auth::create');
+#other classes will follow here
+
 
 /*
  * --------------------------------------------------------------------

@@ -1,0 +1,71 @@
+CRITICAL - 2022-02-02 04:07:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(29): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-02 04:56:13 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(29): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-02 05:22:16 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 143
+#0 /var/www/html/delivery-api/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(33): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-02 05:54:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 143
+#0 /var/www/html/delivery-api/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(33): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-02 06:03:19 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/delivery-api/system/Model.php on line 145
+#0 /var/www/html/delivery-api/system/Model.php(145): CodeIgniter\Database\BaseResult->getResult()
+#1 /var/www/html/delivery-api/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /var/www/html/delivery-api/app/Models/BaseModel.php(29): CodeIgniter\BaseModel->find()
+#3 /var/www/html/delivery-api/app/Controllers/Auth.php(78): App\Models\BaseModel->show()
+#4 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#5 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#9 {main}
+CRITICAL - 2022-02-02 06:18:24 --> Undefined index: pass
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
+CRITICAL - 2022-02-02 06:18:51 --> Undefined index: password
+#0 /var/www/html/delivery-api/app/Controllers/Auth.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/delivery-api/system/CodeIgniter.php(825): App\Controllers\Auth->signin()
+#2 /var/www/html/delivery-api/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/delivery-api/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/delivery-api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/delivery-api/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/d...')
+#6 {main}
